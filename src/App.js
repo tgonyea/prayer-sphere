@@ -1,4 +1,3 @@
-import logo from constants;
 import './App.css';
 import constants from './constants';
 
@@ -6,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo1.png" className="App-logo" alt="logo" />
         <p>
           Welcome to Prayer Sphere.  This app is under development.
           
