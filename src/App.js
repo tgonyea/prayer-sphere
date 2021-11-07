@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Welcome to Prayer Sphere.  This app is under development.
+          
         </p>
         
       </header>
