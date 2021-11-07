@@ -1,5 +1,6 @@
-import logo from './constants';
+import logo from constants;
 import './App.css';
+import constants from './constants';
 
 function App() {
   return (
