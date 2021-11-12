@@ -6,6 +6,10 @@ function App() {
   function changeImage(e) {
     e.target.src = "https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo2.png"
   }
+  function changeImageBack(e) {
+    e.target.src = "https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo1.png"
+  }
+
   return (
 
     <div className="App">
@@ -13,7 +17,7 @@ function App() {
 
       <div className="App_body">
         <div className="MainImage">
-          <img className="Main__Image" src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo1.png" alt="" onMouseOver={changeImage} />
+          <img className="Main__Image" src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo1.png" alt="" onMouseOver={changeImage} onMouseOut={changeImageBack} />
 
 
         </div>
