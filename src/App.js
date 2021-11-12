@@ -1,16 +1,17 @@
+import React from 'react';
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo1.png" className="App-logo" alt="logo" />
-        <p>
-          Welcome to Prayer Sphere.  This app is under development.
-          
-        </p>
-        
-      </header>
+      <Header />
+
+      <div className="App_body">
+        <p>This is the app body</p>
+
+      </div>
     </div>
   );
 }
