@@ -18,16 +18,10 @@ html {
   color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
 img {
   height: 50vmin;
+}
+
+.footer {
+  background-color: var(--primaryColor);
 }

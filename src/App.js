@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
+import Footer from './Footer';
 
 function App() {
   function changeImage(e) {
@@ -22,8 +23,11 @@ function App() {
 
         </div>
 
-        <p>This is the app body</p>
 
+      </div>
+
+      <div>
+        <Footer />
       </div>
     </div>
   );
