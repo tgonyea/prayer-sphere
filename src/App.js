@@ -2,13 +2,13 @@ import React from 'react';
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
+import Privacy from './Privacy';
 
 function App() {
-  function changeImage(e) {
-    e.target.src = "https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo2.png"
-  }
-  function changeImageBack(e) {
-    e.target.src = "https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo1.png"
+  function setBody(target) {
+    var div = document.getElementsByClassName("App_body");
+    div.innerHTML = target;
+
   }
 
   return (
@@ -17,8 +17,8 @@ function App() {
       <Header />
 
       <div className="App_body">
-        <div className="MainImage">
-          <img className="Main__Image" src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo1.png" alt="" onMouseOver={changeImage} onMouseOut={changeImageBack} />
+        <div className="Home">
+          <img className="Main__Image" src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo2.png" alt="" />
 
 
         </div>

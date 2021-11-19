@@ -1,11 +1,13 @@
 import react from "react";
+import App from "./App";
 import './App.css';
+import Privacy from "./Privacy";
 
 function Footer() {
     return (
         <div className="footer">
             <div className="footer_left">
-                <a href="./Privacy.html">Privacy Policy</a>
+                <element onclick="App.setBody('<Privacy />')" >Privacy Policy</element>
 
 
 
