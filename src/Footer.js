@@ -15,6 +15,9 @@ function Footer() {
             </div>
 
             <div className="footer_center">
+                <p>Contact us: <a href="mailto:support@prayersphere.com">support@prayersphere.com</a>
+
+                </p>
                 &copy; 2021 Prayer Sphere. All rights reserved.
             </div>
 

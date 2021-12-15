@@ -18,10 +18,18 @@ html {
   color: black;
 }
 
-img {
+.Main__Image {
   height: 50vmin;
+  padding: 2vmin;
 }
 
 .footer {
   background-color: var(--primaryColor);
 }
+
+.Home {
+  width: 80%;
+  margin-left: 10%;
+}
+
+

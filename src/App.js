@@ -14,6 +14,11 @@ function App() {
       <div className="App__body">
         <div className="Home">
           <img className="Main__Image" src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo2.png" alt="" />
+          <p>Welcome to Prayer Sphere. We are developing a new platform to bring all of our prayers together. We believe that
+            the greatest way to bring His greatness into the world is through prayer. We are excited to launch this platform
+            to bring your friends and family along to pray together on what is important to you. How can we pray for you?
+
+          </p>
 
 
         </div>
