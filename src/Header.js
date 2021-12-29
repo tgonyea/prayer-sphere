@@ -5,7 +5,7 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left">
-                <img src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo1.png" className="logo" alt="logo" />
+                <img src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo2.png" className="logo" alt="logo" />
             </div>
 
             <div className="header__center">
