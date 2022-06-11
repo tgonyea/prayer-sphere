@@ -19,7 +19,7 @@ function App() {
             to bring your friends and family along to pray together on what is important to you. How can we pray for you?
 
             <h1>
-              TESTING
+              TESTING UPDATE TO NPM
             </h1>
 
           </p>
