@@ -36,3 +36,12 @@ html {
 .Donate {
   padding-bottom: 10px;
 }
+
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  background-color: #BCCC9A;
+}
