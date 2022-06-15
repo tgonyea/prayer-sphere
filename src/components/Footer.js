@@ -1,8 +1,5 @@
-import react from "react";
-import App from "../App";
 import './App.css';
-import Privacy from "./Privacy";
-import swapContent from "../utilities";
+
 
 function Footer() {
     return (

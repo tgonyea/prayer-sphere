@@ -1,14 +1,11 @@
-import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import './components/App.css';
 import Footer from './components/Footer';
 import Privacy from './components/Privacy';
-import About from './components/Aboout';
+import About from './components/About';
 import Home from './components/Home';
 import Error from './components/Error';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
