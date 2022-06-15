@@ -1,12 +1,9 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import './components/App.css';
 import Footer from './components/Footer';
 import Privacy from './components/Privacy';
 import About from './components/About';
 import Home from './components/Home';
 import Error from './components/Error';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 function App() {
@@ -19,7 +16,7 @@ function App() {
       <Router>
         <div class="row">
           <div class="col">
-            <nav class="navbar navbar-expand-md bg-light sticky-top">
+            <nav class="navbar navbar-expand-md sticky-top">
               <div class="container-fluid">
 
                 <a class="navbar-brand" href="/">

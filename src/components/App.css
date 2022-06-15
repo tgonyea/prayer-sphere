@@ -1,10 +1,11 @@
 html {
-  --background: #EAE7C6;
+  --background: #fdfcee;
   --primaryColor: #BCCC9A;
 }
 
 .App {
   text-align: center;
+  background-color: var(--background);
 }
 
 .App_body {
@@ -42,8 +43,8 @@ html {
   max-height: 40px;
 }
 
-nav {
-  background-color: #BCCC9A;
+.navbar, .navbar-brand {
+  background-color: var(--background);
 }
 
 
