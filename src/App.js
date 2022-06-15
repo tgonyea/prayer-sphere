@@ -24,7 +24,7 @@ function App() {
           <div class="container-fluid">
 
             <a class="navbar-brand" href="/">
-              <img class="logo d-inline-block align-text-top" src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo2.png"></img>
+              <img class="logo d-inline-block align-text-top" src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo2.png" alt='PrayerSphere Logo'></img>
               Prayer Sphere
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls='navbarToggler' aria-expanded="false" aria-label="Toggle navigation">
