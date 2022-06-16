@@ -16,14 +16,14 @@ function App() {
       <Router>
         <div class="row">
           <div class="col">
-            <nav class="navbar navbar-expand-md sticky-top">
+            <nav class="navbar fixed-top navbar-expand-md">
               <div class="container-fluid">
 
                 <a class="navbar-brand" href="/">
                   <img class="logo d-inline-block align-text-top" src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo2.png" alt='PrayerSphere Logo'></img>
                   Prayer Sphere
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls='navbarToggler' aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls='navbarToggler' aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse ms-3" id="navbarToggler">
@@ -42,7 +42,7 @@ function App() {
         </div>
         <div class="row justify-content-md-center">
           
-          <div class="col-sm-12 col-lg-10 mainSection">
+          <div class="col-lg-10 mainSection">
 
 
             <Routes>

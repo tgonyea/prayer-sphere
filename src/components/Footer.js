@@ -3,7 +3,7 @@ import './App.css';
 
 function Footer() {
     return (
-        <div className="footer">
+        <div class="footer container-fluid">
             <div className="footer_left">
                 <p>Contact us: <a href="mailto:support@prayersphere.com">support@prayersphere.com</a>
 

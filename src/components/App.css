@@ -1,11 +1,14 @@
 html {
   --background: #fdfcee;
+  --complimentary: #eeeffd;
   --primaryColor: #BCCC9A;
+  --textColor: #000256;
 }
 
 .App {
   text-align: center;
   background-color: var(--background);
+  color: var(--textColor);
 }
 
 .App_body {
@@ -16,7 +19,7 @@ html {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  
 }
 
 .Main__Image {
@@ -25,10 +28,18 @@ html {
 }
 
 .footer {
-  background-color: var(--primaryColor);
+  background-color: var(--complimentary);
+  border-color: #760f7d;
+  border-top: 1rem solid;
+
+ }
+
+.border-top {
+  border-color: #760f7d;
 }
 
-.Home {
+.home {
+  margin-top: 60px;
   width: 80%;
   margin-left: 10%;
 
@@ -45,6 +56,28 @@ html {
 
 .navbar, .navbar-brand {
   background-color: var(--background);
+  color: var(--textColor);
 }
 
+.nav-link {
+  color: var(--textColor);
+
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: var(--textColor)
+}
+
+.privacy.li {
+  list-style: none;
+
+}
+
+.privacy {
+  margin-top: 60px;
+}
+
+.about {
+  margin-top: 60px;
+}
 
