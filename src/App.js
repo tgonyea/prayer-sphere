@@ -1,43 +1,75 @@
-import React, { useState } from 'react';
-import './App.css';
-import Header from './Header';
-import Footer from './Footer';
-import Privacy from './Privacy';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import Footer from './components/Footer';
+import Privacy from './components/Privacy';
+import About from './components/About';
+import Home from './components/Home';
+import Error from './components/Error';
+
 
 function App() {
 
   return (
 
-    <div className="App">
-      <Header />
+    <div class="App container-fluid">
 
-      <div className="App__body">
-        <div className="Home">
-          <img className="Main__Image" src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo2.png" alt="" />
-          <p>Welcome to Prayer Sphere. We are developing a new platform to bring all of our prayers together. We believe that
-            the greatest way to bring His greatness into the world is through prayer. We are excited to launch this platform
-            to bring your friends and family along to pray together on what is important to you. How can we pray for you?
 
-       
-          </p>
+      <Router>
+        <div class="row">
+          <div class="col">
+            <nav class="navbar sticky-top navbar-expand-md">
+              <div class="container-fluid">
 
-          <div className='Donate'>
-            <a class="custom-dbox-popup" href="https://donorbox.org/starting-out-13">
-              <img src="https://donorbox.org/images/png-donate/button-medium-blue.png" />
-            </a>
+                <a class="navbar-brand" href="/">
+                  <img class="logo d-inline-block align-text-top" src="https://prayer-sphere-resources.s3.us-east-2.amazonaws.com/images/logo2.png" alt='PrayerSphere Logo'></img>
+                  Prayer Sphere
+                </a>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls='navbarToggler' aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-3" id="navbarToggler">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <Link to="/" class="nav-link" > Home</Link>
+                    <Link to="/about" class="nav-link" > About</Link>
+                    <Link to="/privacy" class="nav-link" > Privacy</Link>
+
+                  </ul>
+                </div>
+              </div>
+
+            </nav>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          
+          <div class="col-lg-10 mainSection">
+
+
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/privacy" element={<Privacy />} />
+              <Route path="*" element={<Error />} />
+
+            </Routes>
           </div>
 
-
+         
         </div>
 
 
 
-      </div>
+
+
+
+      </Router>
+
+
 
       <div>
         <Footer />
       </div>
-    </div>
+    </div >
   );
 }
 
