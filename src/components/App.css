@@ -39,16 +39,14 @@ html {
 }
 
 .home {
-  margin-top: 60px;
   width: 80%;
   margin-left: 10%;
 
 }
 
-.Donate {
-  padding-bottom: 10px;
+.donate {
+  padding-bottom: 20px;
 }
-
 
 .logo {
   max-height: 40px;
@@ -71,13 +69,5 @@ html {
 .privacy.li {
   list-style: none;
 
-}
-
-.privacy {
-  margin-top: 60px;
-}
-
-.about {
-  margin-top: 60px;
 }
 

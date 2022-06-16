@@ -27,7 +27,13 @@ function Home() {
         
 
       </figure>
-    </div >
+
+<div class="donate">
+      <a class="custom-dbox-popup" href="https://donorbox.org/starting-out-13">
+  <img src="https://donorbox.org/images/png-donate/button-medium-blue.png" alt="Donate Button"/>
+</a>
+    </div>
+    </div>
 
 
   );

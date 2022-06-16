@@ -16,7 +16,7 @@ function App() {
       <Router>
         <div class="row">
           <div class="col">
-            <nav class="navbar fixed-top navbar-expand-md">
+            <nav class="navbar sticky-top navbar-expand-md">
               <div class="container-fluid">
 
                 <a class="navbar-brand" href="/">
