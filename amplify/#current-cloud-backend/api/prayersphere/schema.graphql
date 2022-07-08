@@ -1,0 +1,7 @@
+type Prayers @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Name: String
+  Prayer: String
+  numPraying: Int
+  dateTime: AWSTime
+}

@@ -6,11 +6,15 @@ import Home from './components/Home';
 import Error from './components/Error';
 
 
+
 function App() {
+  
+
 
   return (
 
     <div class="App container-fluid">
+      
 
 
       <Router>
@@ -30,6 +34,7 @@ function App() {
                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                     <Link to="/" class="nav-link" > Home</Link>
+                    <a target = "_blank" rel="noreferrer" href="https://shop.prayersphere.com" class="nav-link">Shop</a> 
                     <Link to="/about" class="nav-link" > About</Link>
                     <Link to="/privacy" class="nav-link" > Privacy</Link>
 
